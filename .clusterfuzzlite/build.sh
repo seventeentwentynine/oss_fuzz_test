@@ -1,6 +1,6 @@
 #!/bin/bash -eu
 
-PROJECT_DIR="$SRC/demo-fuzz"
+PROJECT_DIR="$SRC/oss_fuzz_test"
 cd "$PROJECT_DIR"
 
 # Build the fuzz target using ClusterFuzzLite's compiler flags.
