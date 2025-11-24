@@ -12,6 +12,7 @@ void process_input(const uint8_t* data, size_t size) {
     if (s.find("CRSH") != std::string::npos) {
         // Intentional bug for the demo.
         int* p = nullptr;
+
         *p = 42;  // Boom: null dereference
     }
 }
