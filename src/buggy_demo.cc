@@ -10,6 +10,7 @@ void process_input(const uint8_t* data, size_t size) {
         return;
     }
 
+
     int small[8] = {0};
 
     // Take the first byte as an index.
