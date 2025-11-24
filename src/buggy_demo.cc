@@ -16,4 +16,4 @@ void process_input(const uint8_t* data, size_t size) {
     }
 }
 
-}  // namespace demo
+}
